@@ -52,7 +52,8 @@ body {
         font-size: 1.2em; }
         .cabecera__parte1__nav a:hover {
           color: white;
-          cursor: pointer; }
+          cursor: pointer;
+          text-shadow: 2px 2px 4px #000000; }
       @media (max-width: 460px) {
         .cabecera__parte1__nav {
           margin-right: 20px; } }
@@ -81,3 +82,90 @@ body {
       font-family: 'Questrial', sans-serif;
       color: #515453;
       font-size: 1.5em; }
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 20px; }
+  .skills h1 {
+    text-align: center;
+    color: #515453;
+    font-size: 2.5em;
+    font-family: 'Righteous', cursive; }
+  .skills__info {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .skills__info__about {
+      width: 50%;
+      height: 400px;
+      background: #16D6BC; }
+    .skills__info__habilidades {
+      width: 50%;
+      height: 400px;
+      background: #515453; }
+
+.portafolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 20px; }
+  .portafolio h1 {
+    text-align: center;
+    color: #515453;
+    font-size: 2.5em;
+    font-family: 'Righteous', cursive; }
+  .portafolio__proyectos {
+    width: 100%;
+    margin-top: 20px;
+    background: #515453;
+    height: 400px; }
+
+.contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background: #16D6BC;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .contacto h1 {
+    text-align: center;
+    color: #515453;
+    font-size: 2.5em;
+    font-family: 'Righteous', cursive; }
+  .contacto__redes a {
+    color: #515453;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+    margin-right: 60px;
+    -webkit-transition: .7s;
+    transition: .7s; }
+    .contacto__redes a span {
+      font-size: 2.5em; }
+    .contacto__redes a:hover {
+      -webkit-transition: .7s;
+      transition: .7s;
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+      text-shadow: 2px 2px 4px #000000; }
+  .contacto__copyright {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2em;
+    color: #515453; }

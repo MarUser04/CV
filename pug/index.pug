@@ -2,8 +2,9 @@
 html(lang="en")
 head
     meta(charset="UTF-8")
-    title Portafolio
-    link(href="../css/styles.css", rel="stylesheet")
+    title Marco Useche - Web Developer
+    link(href="css/styles.css", rel="stylesheet")
+    link(rel="stylesheet" href="css/font-awesome.css")
     link(href="https://fonts.googleapis.com/css?family=Questrial|Righteous" rel="stylesheet")
     
 body
@@ -12,14 +13,53 @@ body
         .cabecera__parte1
             ul.cabecera__parte1__nav
                 li
-                    a(href="#") Sobre mi  
+                    a(href="#skillsSection") Skills
                 li
-                    a(href="#") Skills 
+                    a(href="#portafolioSection") Portafolio 
                 li
-                    a(href="#") Portafolio 
-                li
-                    a(href="#") Contacto 
-            img(src="../images/mj_logo.png", alt="")
+                    a(href="#contactoSection") Contacto 
+            img(src="images/mj_logo.png", alt="")
         .cabecera__parte2
             h2 Marco Useche
-            p Desarrollador Web / Web Development
+            p Desarrollador Web / Web Developer
+    
+
+
+
+        .skills
+            h1
+                a(name="skillsSection") Skills
+            
+            .skills__info
+                .skills__info__about
+
+                .skills__info__habilidades
+        
+        .portafolio
+            h1
+                a(name="portafolioSection") Portafolio
+            
+
+            .portafolio__proyectos
+        
+    
+        
+        .contacto
+            h1
+                a(name="contactoSection") Contacto
+            .contacto__redes
+                a(href="#") 
+                    span 
+                        i.fa.fa-twitter
+                        
+                a(href="#")
+                    span
+                        i.fa.fa-facebook
+                a(href="#")
+                    span
+                        i.fa.fa-github
+            span.contacto__copyright Copyright © 2017 MarcoJ.
+        
+        
+            
+            
