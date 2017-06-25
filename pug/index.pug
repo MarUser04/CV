@@ -2,11 +2,12 @@
 html(lang="en")
 head
     meta(charset="UTF-8")
+    link(rel="icon" type="image/png" href="images/mj_logo.png")
     title Marco Useche - Web Developer
     link(href="css/styles.css", rel="stylesheet")
     link(rel="stylesheet" href="css/font-awesome.css")
     link(href="https://fonts.googleapis.com/css?family=Questrial|Righteous" rel="stylesheet")
-    
+   
 body
    
     .cabecera
@@ -32,33 +33,80 @@ body
             
             .skills__info
                 .skills__info__about
+                    h2 Sobre mi 
+                    p.
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venezolano, universitario, geek, amante de la tecnologia, apasionado por los avances de las ciencias computacionales. Con gran hambre de conocimientos
+                       sobre muchos temas. Autodidacta, lector, libertario, aficionado a la historia y cinéfilo. Estudiante universitario en la carrera de Ingeniera en Informática
+                       en la Universidad Experimental Nacional del Táchira, en San Cristóbal, Venezuela.
+                    p.
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Soy Desarrollador Frontend. HTML, CSS, Javascript, además de preprocesadores, manejar versiones con Git y lenguajes de programación como Java y C++.
+                        Aficionado a las buenas prácticas de la programación y en aprendizaje constante. En camino a ser MEAN Stack Developer.
+                        
 
                 .skills__info__habilidades
-        
+                    h2 Skills
+                
+                    .habilidades
+                        .progreso
+                            .myBar#css CSS 60%
+                        .progreso
+                            .myBar#sass SASS 55%
+                        .progreso
+                            .myBar#pug PUG 55%
+                        .progreso
+                            .myBar#js JavaScript 50%
+                        .progreso
+                            .myBar#git GIT 65%
+                        .progreso
+                            .myBar#photoshop Photoshop 40%
+                        .progreso
+                            .myBar#ingles Ingles 70%
+
         .portafolio
             h1
                 a(name="portafolioSection") Portafolio
             
 
             .portafolio__proyectos
-        
+                h2 Proyectos propios para formación y practica
+
+                .portafolio__proyectos__templates
+                    .template
+                        img(src="images/music-template.png", alt="music template")
+                        span Template sobre una Página de Musica
+                        a(href="http://music-template.herokuapp.com/" target= "_blank") Acceder
+                    .template
+                        img(src="images/travel-template.png", alt="travel template")
+                        span Template sobre una Página de Viajes
+                        a(href="https://travel-template.herokuapp.com/" target= "_blank") Acceder
+                    .template
+                        img(src="images/transport-template.png", alt="transport template")
+                        span Template sobre una Página de  Transporte
+                        a(href="https://transport-template.herokuapp.com/" target= "_blank") Acceder
+
+
     
         
         .contacto
             h1
                 a(name="contactoSection") Contacto
             .contacto__redes
-                a(href="#") 
+                a(href="https://twitter.com/marco_0497" target= "_blank") 
                     span 
                         i.fa.fa-twitter
                         
-                a(href="#")
+                a(href="https://www.facebook.com/marcojose.usecherivera" target= "_blank")
                     span
                         i.fa.fa-facebook
-                a(href="#")
+                a(href="https://github.com/MarUser04" target= "_blank" )
                     span
                         i.fa.fa-github
+            span.contacto__correo
+                i.fa.fa-envelope
+                span usechermarcoj@gmail.com
             span.contacto__copyright Copyright © 2017 MarcoJ.
+        
+        script(src="script.js")
         
         
             
