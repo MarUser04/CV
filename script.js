@@ -28,6 +28,11 @@ skills[cont].style.width=porcentaje[cont];
 skills[cont].innerText= nombres[cont] +" " +porcentaje[cont];
 
 cont++;
-},350);
 
-skillDelay();
+if(cont===skills.length){
+
+clearInterval(skillDelay);
+}
+},250);
+
+//skillDelay();
