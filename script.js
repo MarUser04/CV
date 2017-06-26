@@ -1,28 +1,33 @@
 var css=document.getElementById('css');
 
-css.style.width= "60%";
-
 var sass=document.getElementById('sass');
-
-sass.style.width= "55%";
 
 var pug=document.getElementById('pug');
 
-pug.style.width= "55%";
-
 var js=document.getElementById('js');
-
-js.style.width= "50%";
-
 
 var git=document.getElementById('git');
 
-git.style.width= "65%";
-
 var photoshop=document.getElementById('photoshop');
-
-photoshop.style.width= "40%";
 
 var ingles= document.getElementById('ingles');
 
-ingles.style.width= "70%";
+var skills= [css, sass, pug, js, git, photoshop, ingles];
+
+var porcentaje= ["60%", "55%","55%", "50%","65%", "40%", "70%"];
+var nombres= ["CSS", "SASS", "Pug", "JavaScript", "GIT", "Photoshop", "Ingles"];
+
+var cont=0;
+
+
+var skillDelay= setInterval(function(){
+
+skills[cont].style.width=porcentaje[cont];
+
+
+skills[cont].innerText= nombres[cont] +" " +porcentaje[cont];
+
+cont++;
+},350);
+
+skillDelay();
