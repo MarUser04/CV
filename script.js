@@ -22,17 +22,18 @@ var cont=0;
 
 var skillDelay= setInterval(function(){
 
-skills[cont].style.width=porcentaje[cont];
+    skills[cont].style.width=porcentaje[cont];
 
 
-skills[cont].innerText= nombres[cont] +" " +porcentaje[cont];
+    skills[cont].innerText= nombres[cont] +" " +porcentaje[cont];
 
-cont++;
+    cont++;
 
-if(cont===skills.length){
+    if(cont===skills.length){
 
-clearInterval(skillDelay);
-}
+    clearInterval(skillDelay);
+    }
 },250);
 
-//skillDelay();
+
+
