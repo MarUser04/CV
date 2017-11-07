@@ -5,6 +5,9 @@ var sass=document.getElementById('sass');
 var pug=document.getElementById('pug');
 
 var js=document.getElementById('js');
+var php=document.getElementById('PHP');
+var java=document.getElementById('java');
+var mysql=document.getElementById('MySQL');
 
 var git=document.getElementById('git');
 
@@ -12,10 +15,10 @@ var photoshop=document.getElementById('photoshop');
 
 var ingles= document.getElementById('ingles');
 
-var skills= [css, sass, pug, js, git, photoshop, ingles];
+var skills= [css, sass, pug, js,php, java, mysql, git, photoshop, ingles];
 
-var porcentaje= ["60%", "55%","55%", "50%","65%", "40%", "70%"];
-var nombres= ["CSS", "SASS", "Pug", "JavaScript", "GIT", "Photoshop", "Ingles"];
+var porcentaje= ["60%", "55%","55%", "50%","50%","60%","45%","65%", "40%", "70%"];
+var nombres= ["CSS", "SASS", "Pug", "JavaScript","PHP","Java" ,"MySQL", "GIT", "Photoshop", "Ingles"];
 
 var cont=0;
 
